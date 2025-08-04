@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+
+body{
+        background-color: aqua;
+}
+
+.main{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), -3px -3px 3px rgba(0, 0, 0, 0.1);
+    margin-left: 25%;
+    margin-top: 8%;
+}
+
+.sec{
+    background-color:rgb(236, 241, 245);
+    width: 280px;
+    height: 470px;
+    padding: 15px;
+}
+
+.menu{
+    display: flex;
+    gap: 145px;
+    padding-bottom: 22%;
+    margin-top: 12px;
+}
+.menu i {
+    margin-top: 2px;
+    font-size: 20px;
+    background-color:rgb(236, 241, 245);
+    padding: 10px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1), -2px -2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.home{
+    display: flex;
+    gap: 10px;
+    background-color:rgb(236, 241, 245);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1), -2px -2px 1px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.home i{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.profile{
+    display: flex;
+    gap: 10px;
+    background-color:rgb(236, 241, 245);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2), -2px -2px 1px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-bottom: 15px;
+
+}
+
+.profile i{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.settings{
+    display: flex;
+    gap: 10px;
+    background-color:rgb(236, 241, 245);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2), -2px -2px 1px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.settings i{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.messages{
+    display: flex;
+    gap: 10px;
+    background-color:rgb(236, 241, 245);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2), -2px -2px 1px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-bottom: 15px;
+
+}
+
+.messages i{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.logout{
+    display: flex;
+    gap: 10px;
+    background-color:rgb(236, 241, 245);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2), -2px -2px 1px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-bottom: 15px;
+
+}
+
+.logout i{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+@media screen and (max-width:390px)  {
+
+    .main{
+    width: 100px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), -3px -3px 3px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+    margin-top: 80px;
+   }
+    
+}
+
+
